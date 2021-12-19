@@ -3,7 +3,7 @@ class Node:
         self.data = data
         self.next = None #Address of Next Node
 
-class SingleLinkedList:  #creating a linked List
+class LinkedList:  #creating a linked List
     def __init__(self):
         self.head = None
 
@@ -16,7 +16,7 @@ class SingleLinkedList:  #creating a linked List
                 print(temp.data,"--->", end =" ")
                 temp = temp.next
 
-L = SingleLinkedList() #empty List
+L = LinkedList() #empty List
 n1 = Node(10)
 L.head = n1 #n1 = L
 n2 = Node(20)
