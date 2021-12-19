@@ -1,13 +1,13 @@
 class Node:
     def __init__(self,data):
         self.data = data
-        self.next = None #Address of NextNode
+        self.next = None #Address of Next Node
 
-class SingleLinkedList:
+class SingleLinkedList:  #creating a linked List
     def __init__(self):
         self.head = None
 
-    def display(self):
+    def display(self):    #loop
         if self.head is None:
             print("List is empty")
         else:
