@@ -37,7 +37,7 @@ class Queue:
     
     def first(self):
         if self.is_empty():
-            raise Empty("Stack is Empty")
+            raise Empty("Queue is Empty")
         return self.head.data
 
     def print(self):
