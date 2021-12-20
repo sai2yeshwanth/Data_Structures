@@ -12,3 +12,5 @@ print(stack.pop())
 print(stack)
 print(stack.pop())
 print(stack) #now stack is empty
+
+#print(stack.pop()) #index error (there no elements in stack)
