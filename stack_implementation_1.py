@@ -8,3 +8,7 @@ print(stack)
 
 print(stack.pop()) # three is remove form list
 print(stack)
+print(stack.pop())
+print(stack)
+print(stack.pop())
+print(stack) #now stack is empty
