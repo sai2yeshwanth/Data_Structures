@@ -1,7 +1,5 @@
 class Stack:
     class Node:
-         __slots__ = "data","next"
-
          def __init__(self,data,next):
              self.data = data
              self.next = next
