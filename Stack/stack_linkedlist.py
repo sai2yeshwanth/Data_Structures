@@ -22,7 +22,7 @@ class Stack:
             raise Empty("Stack is Empty")
         value = self.head.data
         self.head = self.head.next
-        self.size = self.size-1
+        self.size -=1
         return value
     
     def top(self):
