@@ -13,8 +13,8 @@ class Stack:
     def is_empty(self):
         return self.size == 0
 
-    def push(self, new_e):
-        self.head = self.Node(new_e,self.head)
+    def push(self, data):
+        self.head = self.Node(data,self.head)
         self.size = self.size + 1
 
     def pop(self):
